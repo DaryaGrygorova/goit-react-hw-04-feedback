@@ -31,7 +31,7 @@ export const App = () => {
         break;
 
       default:
-        break;
+        throw new Error(`Unknown feedback type - ${type}`);
     }
   };
 
